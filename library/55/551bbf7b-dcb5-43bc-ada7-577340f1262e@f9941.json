@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fruitBabbu",
+    "atlas": "",
+    "rect": {
+      "x": 99,
+      "y": 19,
+      "width": 314,
+      "height": 474
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 512,
+      "height": 512
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "551bbf7b-dcb5-43bc-ada7-577340f1262e@6c48a",
+    "packable": true
+  }
+}

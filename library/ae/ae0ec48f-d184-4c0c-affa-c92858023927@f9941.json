@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "refresh",
+    "atlas": "",
+    "rect": {
+      "x": 26,
+      "y": 26,
+      "width": 204,
+      "height": 203
+    },
+    "offset": {
+      "x": 0,
+      "y": 0.5
+    },
+    "originalSize": {
+      "width": 256,
+      "height": 256
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "ae0ec48f-d184-4c0c-affa-c92858023927@6c48a",
+    "packable": true
+  }
+}

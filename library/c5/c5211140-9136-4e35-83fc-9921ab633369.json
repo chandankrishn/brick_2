@@ -1,0 +1,46 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "level1",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "level1": {
+      "no_of_rows": 5,
+      "no_of_columns": 5,
+      "rewards_tile": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "stucture": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        1,
+        2,
+        3,
+        4,
+        5,
+        1,
+        2,
+        3,
+        4,
+        5,
+        1,
+        2,
+        3,
+        4,
+        5,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  }
+}

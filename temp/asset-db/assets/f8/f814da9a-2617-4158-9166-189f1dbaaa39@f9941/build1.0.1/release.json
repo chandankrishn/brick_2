@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "f8FNqaJhdBWJFmGJ8duqo5@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "icebase",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 73,
+                "height": 1144
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 73,
+                "height": 1144
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "packable": true
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

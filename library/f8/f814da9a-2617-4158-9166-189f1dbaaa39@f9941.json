@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icebase",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 73,
+      "height": 1144
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 73,
+      "height": 1144
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "f814da9a-2617-4158-9166-189f1dbaaa39@6c48a",
+    "packable": true
+  }
+}

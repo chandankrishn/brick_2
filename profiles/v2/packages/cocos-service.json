@@ -1,0 +1,12 @@
+{
+  "options": {
+    "web-mobile": {
+      "configID": "aaff21",
+      "services": []
+    }
+  },
+  "builder-options": {
+    "configID": "aaff21",
+    "services": []
+  }
+}

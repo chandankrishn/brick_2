@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fruitGrapes",
+    "atlas": "",
+    "rect": {
+      "x": 3,
+      "y": 3,
+      "width": 370,
+      "height": 373
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 376,
+      "height": 379
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "9df46a0e-f1c0-4a5d-ae02-bd053468af37@6c48a",
+    "packable": true
+  }
+}

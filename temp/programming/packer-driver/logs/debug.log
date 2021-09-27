@@ -1,0 +1,167 @@
+debug: Sun, 26 Sep 2021 15:13:03 GMT
+debug: Project: C:\Users\krish\Downloads\Brick_breaker-20210925T064351Z-001\Brick_breaker
+debug: Targets: editor,preview
+debug: Incremental file seems great.
+debug: Engine path: C:\CocosDashboard_1.0.17\resources\.editors\Creator\3.3.0\resources\resources\3d\engine
+debug: Initializing target [Editor]
+debug: Loading cache
+debug: Loading cache costs 475.51170015335083ms.
+debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones
+debug: Initializing target [Preview]
+debug: Loading cache
+debug: Loading cache costs 108.30800008773804ms.
+debug: Sync engine features: base,gfx-webgl,2d,ui,physics-2d-box2d,intersection-2d,profiler,particle-2d,audio,video,webview,tween,tiled-map,spine,dragon-bones
+debug: Pulling asset-db.
+debug: Fetch asset-db cost: 10.009999990463257ms.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 05:30:41 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:33:38 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:14:37 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:35:37 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
+debug: Target(editor) ends with cost 2285.2444999217987ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 05:30:41 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:33:38 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:14:37 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:35:40 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
+debug: Target(preview) ends with cost 129.91170001029968ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:35:37 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:43:20 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
+debug: Detected change: file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Sat Sep 25 2021 23:43:17 GMT+0530 (India Standard Time), Current mtime: Sun Sep 26 2021 20:52:45 GMT+0530 (India Standard Time)
+debug: Inspect file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts
+debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 1330.7582001686096ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:35:40 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:43:22 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
+debug: Detected change: file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Sat Sep 25 2021 23:43:17 GMT+0530 (India Standard Time), Current mtime: Sun Sep 26 2021 20:52:45 GMT+0530 (India Standard Time)
+debug: Inspect file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts
+debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 340.40689992904663ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:43:20 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:47:03 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
+debug: Detected change: file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Sun Sep 26 2021 20:52:45 GMT+0530 (India Standard Time), Current mtime: Sun Sep 26 2021 20:56:27 GMT+0530 (India Standard Time)
+debug: Inspect file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts
+debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 180.2969000339508ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:43:22 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:47:04 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
+debug: Detected change: file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Sun Sep 26 2021 20:52:45 GMT+0530 (India Standard Time), Current mtime: Sun Sep 26 2021 20:56:27 GMT+0530 (India Standard Time)
+debug: Inspect file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts
+debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 262.45910000801086ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:47:03 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:57:52 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
+debug: Detected change: file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Sun Sep 26 2021 20:56:27 GMT+0530 (India Standard Time), Current mtime: Sun Sep 26 2021 21:06:13 GMT+0530 (India Standard Time)
+debug: Inspect file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts
+debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 371.8187999725342ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:47:04 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:57:53 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
+debug: Detected change: file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Sun Sep 26 2021 20:56:27 GMT+0530 (India Standard Time), Current mtime: Sun Sep 26 2021 21:06:13 GMT+0530 (India Standard Time)
+debug: Inspect file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts
+debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 471.0801999568939ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:57:52 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:59:46 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
+debug: Detected change: file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Sun Sep 26 2021 21:06:13 GMT+0530 (India Standard Time), Current mtime: Sun Sep 26 2021 21:09:08 GMT+0530 (India Standard Time)
+debug: Inspect file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts
+debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 283.74330019950867ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:57:53 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:59:46 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
+debug: Detected change: file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Sun Sep 26 2021 21:06:13 GMT+0530 (India Standard Time), Current mtime: Sun Sep 26 2021 21:09:08 GMT+0530 (India Standard Time)
+debug: Inspect file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts
+debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 248.12490010261536ms.

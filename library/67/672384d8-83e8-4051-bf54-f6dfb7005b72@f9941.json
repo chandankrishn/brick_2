@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Brick_5_cracked",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 52,
+      "width": 640,
+      "height": 216
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 640,
+      "height": 320
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "672384d8-83e8-4051-bf54-f6dfb7005b72@6c48a",
+    "packable": true
+  }
+}

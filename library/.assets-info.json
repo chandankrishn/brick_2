@@ -1,0 +1,923 @@
+{
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene": {
+    "time": 1632305452481.8047,
+    "uuid": "040b0d56-a7b9-4440-a49c-86b71a30576c",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene.meta": {
+    "time": 1632284916598.556
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts": {
+    "time": 1632464613997.7004,
+    "uuid": "72dcff9f-8e1b-4c34-bae1-53c9dc72f476",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts.meta": {
+    "time": 1632284924741.996
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets": {
+    "time": 1632284991240.4294,
+    "uuid": "cddd1ec4-4f3a-4f1e-a65b-04bd16fa9e52",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets.meta": {
+    "time": 1632284937983.6663
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive": {
+    "time": 1632284991241.365,
+    "uuid": "9b7b6a58-a08f-4d11-9221-8a877ef9cb47",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks": {
+    "time": 1632284991247.5962,
+    "uuid": "1403e511-75ce-496a-b9e6-19fdbe014cdd",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra": {
+    "time": 1632305394060.4268,
+    "uuid": "89b6c738-3c6b-44b2-b003-fa93550eaea0",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_0.png": {
+    "time": 1632284991235.5537,
+    "uuid": "ebbf4981-9252-4a0b-a296-9a5ba6c13718",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_0_cracked.png": {
+    "time": 1632284991234.0605,
+    "uuid": "12886665-d267-46da-97aa-83dc16fc18f7",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_1.png": {
+    "time": 1632284991231.5083,
+    "uuid": "c7b32f35-3745-4bc2-811c-e5722b52ecf7",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_1_cracked.png": {
+    "time": 1632284991229.9602,
+    "uuid": "5274982e-973b-4639-ac33-80376d8d4b66",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_2.png": {
+    "time": 1632284991227.4893,
+    "uuid": "56eda8b1-106b-4f33-9ec5-bab81afab3b6",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_2_cracked.png": {
+    "time": 1632284991225.9436,
+    "uuid": "d06db689-1e40-4553-b8d3-32403fdb088d",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_3.png": {
+    "time": 1632284991224.1172,
+    "uuid": "989ec102-2307-4af6-9362-365f02579545",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_3_cracked.png": {
+    "time": 1632284991222.3745,
+    "uuid": "6901cb83-46a2-45f2-af82-0f192c56e69b",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_4.png": {
+    "time": 1632284991221.378,
+    "uuid": "b1248a21-3735-4634-ac43-04c0599c885a",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_4_cracked.png": {
+    "time": 1632284991219.9036,
+    "uuid": "660bbbe0-f6ad-4f59-a87c-224dfed4b10d",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_5.png": {
+    "time": 1632284991217.5356,
+    "uuid": "6f96dd59-d7a5-48e8-9f74-5b037ce3c876",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_5_cracked.png": {
+    "time": 1632284991216.493,
+    "uuid": "672384d8-83e8-4051-bf54-f6dfb7005b72",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_6.png": {
+    "time": 1632284991213.6914,
+    "uuid": "52326a6c-c114-4459-bbdf-03269438ff01",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_6_cracked.png": {
+    "time": 1632284991211.774,
+    "uuid": "7a5331b1-3d61-4d37-8d20-8bb99a81781d",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_7.png": {
+    "time": 1632284991210.7905,
+    "uuid": "e4cf0118-a4a0-4cf1-92ec-681638a9077b",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_7_cracked.png": {
+    "time": 1632284991209.1213,
+    "uuid": "4b313b97-3042-4dfe-9e8a-d2261d528729",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/Ball_1.png": {
+    "time": 1632284991205.5024,
+    "uuid": "1933a267-5510-42d5-bf2f-a4453d1478bf",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/Ball_2.png": {
+    "time": 1632284991203.6335,
+    "uuid": "7e4d3c92-cb76-4b21-be34-e66a77d68732",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/Ball_3.png": {
+    "time": 1632284991201.5042,
+    "uuid": "8f3c5972-ef04-4245-8ce4-04f047d753e2",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/Breaker_1.png": {
+    "time": 1632284991199.787,
+    "uuid": "5452237d-ddcd-4471-97f9-e318e88d9c10",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/fire_0.png": {
+    "time": 1632284991197.9856,
+    "uuid": "3e4c7d2d-5c2c-404b-9896-75cb1e8eb068",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/fire_1.png": {
+    "time": 1632284991193.7253,
+    "uuid": "73d13882-d9b6-4bbd-b00f-77715f9cc02a",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/fire_2.png": {
+    "time": 1632284991192.574,
+    "uuid": "3ffdc842-fe20-487e-953e-3bd9953bcf9e",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/fire_3.png": {
+    "time": 1632284991189.4949,
+    "uuid": "332a9655-ccc6-4a0e-8f88-c7ba3e07b231",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/fruitApple.png": {
+    "time": 1632284991187.678,
+    "uuid": "c814a30d-9931-4f43-af4c-bff36d0f1456",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/fruitBabbu.png": {
+    "time": 1632284991185.0215,
+    "uuid": "551bbf7b-dcb5-43bc-ada7-577340f1262e",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/fruitBanana.png": {
+    "time": 1632284991183.124,
+    "uuid": "161d2102-cffc-43a8-92b1-3df7a094a8c6",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/fruitGrapes.png": {
+    "time": 1632284991180.0327,
+    "uuid": "9df46a0e-f1c0-4a5d-ae02-bd053468af37",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/refresh.png": {
+    "time": 1632284991178.9998,
+    "uuid": "ae0ec48f-d184-4c0c-affa-c92858023927",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive.meta": {
+    "time": 1632284991253.9695
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks.meta": {
+    "time": 1632284991254.3528
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra.meta": {
+    "time": 1632284991254.7002
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_0_cracked.png.meta": {
+    "time": 1632284991342.5684
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_1.png.meta": {
+    "time": 1632284991343.1072
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_0.png.meta": {
+    "time": 1632284991345.5305
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_1_cracked.png.meta": {
+    "time": 1632284991346.428
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_2.png.meta": {
+    "time": 1632284991352.228
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_3.png.meta": {
+    "time": 1632284991426.0347
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_4.png.meta": {
+    "time": 1632284991428.48
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_3_cracked.png.meta": {
+    "time": 1632284991432.6895
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_4_cracked.png.meta": {
+    "time": 1632284991438.3284
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_2_cracked.png.meta": {
+    "time": 1632284991463.0166
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_6.png.meta": {
+    "time": 1632284991521.0015
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_5_cracked.png.meta": {
+    "time": 1632284991521.778
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_5.png.meta": {
+    "time": 1632284991522.4543
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_6_cracked.png.meta": {
+    "time": 1632284991543.355
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_7.png.meta": {
+    "time": 1632284991602.2175
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/Ball_2.png.meta": {
+    "time": 1632284991654.7173
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/Ball_1.png.meta": {
+    "time": 1632284991671.5085
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/Ball_3.png.meta": {
+    "time": 1632284991672.4956
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Bricks/Brick_7_cracked.png.meta": {
+    "time": 1632284991673.0386
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/Breaker_1.png.meta": {
+    "time": 1632284991712.0774
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/fire_0.png.meta": {
+    "time": 1632284991768.8748
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/fire_1.png.meta": {
+    "time": 1632284991773.8604
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/fire_3.png.meta": {
+    "time": 1632284991780.774
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/fire_2.png.meta": {
+    "time": 1632284991783.2925
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/fruitApple.png.meta": {
+    "time": 1632284991842.2495
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/fruitBabbu.png.meta": {
+    "time": 1632284991859.7988
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/fruitBanana.png.meta": {
+    "time": 1632284991926.6353
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/refresh.png.meta": {
+    "time": 1632284991938.237
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/fruitGrapes.png.meta": {
+    "time": 1632284991939.2527
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/brick_breaker_back.jpeg.meta": {
+    "time": 1632285532741.9832
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/playbutton.png": {
+    "time": 1632286295813.899,
+    "uuid": "07a625c4-6c19-4471-ac0f-89940aec913e",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/playbutton.png.meta": {
+    "time": 1632286295860.271
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/Mainscript.ts": {
+    "time": 1632490552224.4163,
+    "uuid": "33946900-cff8-4d59-a99b-1da9d89f122a",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/Mainscript.ts.meta": {
+    "time": 1632286444961.0916
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/10f7d90e29aef1d155634fd77a5678de.jpeg": {
+    "time": 1632286754479.6438,
+    "uuid": "0b2e9d31-5657-4649-8b32-cd86febd696e",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/10f7d90e29aef1d155634fd77a5678de.jpeg.meta": {
+    "time": 1632286754511.5376
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/bg.jpeg.meta": {
+    "time": 1632286754511.5376
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/bg.jpeg": {
+    "time": 1632286754479.6438,
+    "uuid": "0b2e9d31-5657-4649-8b32-cd86febd696e",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Main.scene": {
+    "time": 1632289291229.2388,
+    "uuid": "61c37938-7f12-4e27-a789-b918f34893f7",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Main.scene.meta": {
+    "time": 1632286915855.187
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/BgForMain.jpg.meta": {
+    "time": 1632288594052.2322
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/photo-1531306728370-e2ebd9d7bb99.jpeg": {
+    "time": 1632288682205.616,
+    "uuid": "f214022b-dfb5-4db5-873b-d75a041a2ce5",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/photo-1531306728370-e2ebd9d7bb99.jpeg.meta": {
+    "time": 1632288682303.528
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene/Main.scene.meta": {
+    "time": 1632286915855.187
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene/Main.scene": {
+    "time": 1632485118799.881,
+    "uuid": "61c37938-7f12-4e27-a789-b918f34893f7",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene/temp.scene": {
+    "time": 1632308035674.4194,
+    "uuid": "904a1409-7a51-4a4d-8aae-2d7d401416cb",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene/temp.scene.meta": {
+    "time": 1632290313112.991
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene/Breaker_1.prefab": {
+    "time": 1632290379770.0417,
+    "uuid": "8c2d4bb1-ac8e-40a0-9782-76dd5f523907",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene/Breaker_1.prefab.meta": {
+    "time": 1632290379771.2117
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene/prefabs": {
+    "time": 1632307914463.4646,
+    "uuid": "1a4f1fec-28dc-4f24-88ea-3fd221756dde",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene/prefabs.meta": {
+    "time": 1632290388742.5583
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene/prefabs/Breaker_1.prefab.meta": {
+    "time": 1632290379771.2117
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene/prefabs/Breaker_1.prefab": {
+    "time": 1632481523025.5662,
+    "uuid": "8c2d4bb1-ac8e-40a0-9782-76dd5f523907",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/bottom.jpeg": {
+    "time": 1632294065894.2659,
+    "uuid": "31025b7d-e12a-43ba-a1b9-13653135563e",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/bottom.jpeg.meta": {
+    "time": 1632294065927.4043
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/icebase.png": {
+    "time": 1632296157212.714,
+    "uuid": "f814da9a-2617-4158-9166-189f1dbaaa39",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/icebase.png.meta": {
+    "time": 1632296157257.0417
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene/start.scene": {
+    "time": 1632297922024.428,
+    "uuid": "8b042ac2-4d58-4c08-87a8-aea639e3cfb6",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene/start.scene.meta": {
+    "time": 1632297922029.1453
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/Ball_1.prefab": {
+    "time": 1632305394062.1382,
+    "uuid": "b9f01c83-a503-47e5-b601-46f62714c108",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Assets/Archive/Extra/Ball_1.prefab.meta": {
+    "time": 1632305394063.3445
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene/Ball_1.prefab": {
+    "time": 1632381342313.97,
+    "uuid": "7a8fdcfe-c9b0-46b7-aac6-476459c1f7df",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene/Ball_1.prefab.meta": {
+    "time": 1632305452484.5498
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene/prefabs/Brick_0.prefab": {
+    "time": 1632478271593.506,
+    "uuid": "6cf18ac5-89a5-44e1-a00c-c5eafe28d715",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/Scene/prefabs/Brick_0.prefab.meta": {
+    "time": 1632307914468.0413
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/ball.ts": {
+    "time": 1632478260928.6428,
+    "uuid": "48d12240-97da-4310-b16b-71ac75404a31",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/ball.ts.meta": {
+    "time": 1632372867774.719
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/jsondummy.json": {
+    "time": 1632459302456.6345,
+    "uuid": "c5211140-9136-4e35-83fc-9921ab633369",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/jsondummy.json.meta": {
+    "time": 1632389232927.894
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/level1.meta": {
+    "time": 1632464541008.1577
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/level1.json.meta": {
+    "time": 1632389232927.894
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/level1.json": {
+    "time": 1632490403715.4553,
+    "uuid": "c5211140-9136-4e35-83fc-9921ab633369",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/level2.json": {
+    "time": 1632478258081.26,
+    "uuid": "f54df76d-e530-489e-8ba2-256d57567b27",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/level2.json.meta": {
+    "time": 1632464599977.8225
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/level3.json": {
+    "time": 1632464603836.9863,
+    "uuid": "e37facab-22c4-4492-950c-4d3dd7e7440b",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/level3.json.meta": {
+    "time": 1632464603836.181
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/level4.json": {
+    "time": 1632464610673.452,
+    "uuid": "87c92827-afa5-4d37-a692-913a2570b476",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/level4.json.meta": {
+    "time": 1632464610670.496
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/level5.json": {
+    "time": 1632464613997.8704,
+    "uuid": "786e22ff-5b3a-4017-8f42-c5171af5145c",
+    "missing": false
+  },
+  "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/level5.json.meta": {
+    "time": 1632464613991.5464
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets": {
+    "time": 1632719782425.9124,
+    "uuid": "cddd1ec4-4f3a-4f1e-a65b-04bd16fa9e52",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Scene": {
+    "time": 1632719782953.025,
+    "uuid": "040b0d56-a7b9-4440-a49c-86b71a30576c",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts": {
+    "time": 1632719782747.0503,
+    "uuid": "72dcff9f-8e1b-4c34-bae1-53c9dc72f476",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive": {
+    "time": 1632719782442.8394,
+    "uuid": "9b7b6a58-a08f-4d11-9221-8a877ef9cb47",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Scene/Ball_1.prefab": {
+    "time": 1632738066530.1123,
+    "uuid": "7a8fdcfe-c9b0-46b7-aac6-476459c1f7df",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Scene/Main.scene": {
+    "time": 1632737890407.126,
+    "uuid": "61c37938-7f12-4e27-a789-b918f34893f7",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Scene/prefabs": {
+    "time": 1632719782877.6604,
+    "uuid": "1a4f1fec-28dc-4f24-88ea-3fd221756dde",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Scene/start.scene": {
+    "time": 1632207922000,
+    "uuid": "8b042ac2-4d58-4c08-87a8-aea639e3cfb6",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Scene/temp.scene": {
+    "time": 1632218034000,
+    "uuid": "904a1409-7a51-4a4d-8aae-2d7d401416cb",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts": {
+    "time": 1632737910717.822,
+    "uuid": "33946900-cff8-4d59-a99b-1da9d89f122a",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts": {
+    "time": 1632738124884.7915,
+    "uuid": "48d12240-97da-4310-b16b-71ac75404a31",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/level1.json": {
+    "time": 1632737429295.4023,
+    "uuid": "c5211140-9136-4e35-83fc-9921ab633369",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/level2.json": {
+    "time": 1632625722000,
+    "uuid": "f54df76d-e530-489e-8ba2-256d57567b27",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/level3.json": {
+    "time": 1632625758000,
+    "uuid": "e37facab-22c4-4492-950c-4d3dd7e7440b",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/level4.json": {
+    "time": 1632374610000,
+    "uuid": "87c92827-afa5-4d37-a692-913a2570b476",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/level5.json": {
+    "time": 1632374612000,
+    "uuid": "786e22ff-5b3a-4017-8f42-c5171af5145c",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks": {
+    "time": 1632719782655.9248,
+    "uuid": "1403e511-75ce-496a-b9e6-19fdbe014cdd",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra": {
+    "time": 1632719782850.0505,
+    "uuid": "89b6c738-3c6b-44b2-b003-fa93550eaea0",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Scene/prefabs/Breaker_1.prefab": {
+    "time": 1632391522000,
+    "uuid": "8c2d4bb1-ac8e-40a0-9782-76dd5f523907",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Scene/prefabs/Brick_0.prefab": {
+    "time": 1632388270000,
+    "uuid": "6cf18ac5-89a5-44e1-a00c-c5eafe28d715",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_0.png": {
+    "time": 1632194990000,
+    "uuid": "ebbf4981-9252-4a0b-a296-9a5ba6c13718",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_0_cracked.png": {
+    "time": 1632194990000,
+    "uuid": "12886665-d267-46da-97aa-83dc16fc18f7",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_1.png": {
+    "time": 1632194990000,
+    "uuid": "c7b32f35-3745-4bc2-811c-e5722b52ecf7",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_1_cracked.png": {
+    "time": 1632194990000,
+    "uuid": "5274982e-973b-4639-ac33-80376d8d4b66",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_2.png": {
+    "time": 1632194990000,
+    "uuid": "56eda8b1-106b-4f33-9ec5-bab81afab3b6",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_2_cracked.png": {
+    "time": 1632194990000,
+    "uuid": "d06db689-1e40-4553-b8d3-32403fdb088d",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_3.png": {
+    "time": 1632194990000,
+    "uuid": "989ec102-2307-4af6-9362-365f02579545",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_3_cracked.png": {
+    "time": 1632194990000,
+    "uuid": "6901cb83-46a2-45f2-af82-0f192c56e69b",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_4.png": {
+    "time": 1632194990000,
+    "uuid": "b1248a21-3735-4634-ac43-04c0599c885a",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_4_cracked.png": {
+    "time": 1632194990000,
+    "uuid": "660bbbe0-f6ad-4f59-a87c-224dfed4b10d",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_5.png": {
+    "time": 1632194990000,
+    "uuid": "6f96dd59-d7a5-48e8-9f74-5b037ce3c876",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_5_cracked.png": {
+    "time": 1632194990000,
+    "uuid": "672384d8-83e8-4051-bf54-f6dfb7005b72",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_6.png": {
+    "time": 1632194990000,
+    "uuid": "52326a6c-c114-4459-bbdf-03269438ff01",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_6_cracked.png": {
+    "time": 1632194990000,
+    "uuid": "7a5331b1-3d61-4d37-8d20-8bb99a81781d",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_7.png": {
+    "time": 1632194990000,
+    "uuid": "e4cf0118-a4a0-4cf1-92ec-681638a9077b",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_7_cracked.png": {
+    "time": 1632194990000,
+    "uuid": "4b313b97-3042-4dfe-9e8a-d2261d528729",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/Ball_1.png": {
+    "time": 1632194990000,
+    "uuid": "1933a267-5510-42d5-bf2f-a4453d1478bf",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/Ball_1.prefab": {
+    "time": 1632215394000,
+    "uuid": "b9f01c83-a503-47e5-b601-46f62714c108",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/Ball_2.png": {
+    "time": 1632194990000,
+    "uuid": "7e4d3c92-cb76-4b21-be34-e66a77d68732",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/Ball_3.png": {
+    "time": 1632194990000,
+    "uuid": "8f3c5972-ef04-4245-8ce4-04f047d753e2",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/Breaker_1.png": {
+    "time": 1632194990000,
+    "uuid": "5452237d-ddcd-4471-97f9-e318e88d9c10",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/bg.jpeg": {
+    "time": 1632196754000,
+    "uuid": "0b2e9d31-5657-4649-8b32-cd86febd696e",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/bottom.jpeg": {
+    "time": 1632204064000,
+    "uuid": "31025b7d-e12a-43ba-a1b9-13653135563e",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/fire_0.png": {
+    "time": 1632194990000,
+    "uuid": "3e4c7d2d-5c2c-404b-9896-75cb1e8eb068",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/fire_1.png": {
+    "time": 1632194990000,
+    "uuid": "73d13882-d9b6-4bbd-b00f-77715f9cc02a",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/fire_2.png": {
+    "time": 1632194990000,
+    "uuid": "3ffdc842-fe20-487e-953e-3bd9953bcf9e",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/fire_3.png": {
+    "time": 1632194990000,
+    "uuid": "332a9655-ccc6-4a0e-8f88-c7ba3e07b231",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/fruitApple.png": {
+    "time": 1632194990000,
+    "uuid": "c814a30d-9931-4f43-af4c-bff36d0f1456",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/fruitBabbu.png": {
+    "time": 1632194990000,
+    "uuid": "551bbf7b-dcb5-43bc-ada7-577340f1262e",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/fruitBanana.png": {
+    "time": 1632194990000,
+    "uuid": "161d2102-cffc-43a8-92b1-3df7a094a8c6",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/fruitGrapes.png": {
+    "time": 1632194990000,
+    "uuid": "9df46a0e-f1c0-4a5d-ae02-bd053468af37",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/icebase.png": {
+    "time": 1632206156000,
+    "uuid": "f814da9a-2617-4158-9166-189f1dbaaa39",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/photo-1531306728370-e2ebd9d7bb99.jpeg": {
+    "time": 1632198682000,
+    "uuid": "f214022b-dfb5-4db5-873b-d75a041a2ce5",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/playbutton.png": {
+    "time": 1632196294000,
+    "uuid": "07a625c4-6c19-4471-ac0f-89940aec913e",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/refresh.png": {
+    "time": 1632194990000,
+    "uuid": "ae0ec48f-d184-4c0c-affa-c92858023927",
+    "missing": false
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets.meta": {
+    "time": 1632194936000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Scene.meta": {
+    "time": 1632194916000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts.meta": {
+    "time": 1632194924000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Scene/prefabs.meta": {
+    "time": 1632200388000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.meta": {
+    "time": 1632196444000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.meta": {
+    "time": 1632282866000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Scene/Ball_1.prefab.meta": {
+    "time": 1632215452000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Scene/start.scene.meta": {
+    "time": 1632207922000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Scene/Main.scene.meta": {
+    "time": 1632196914000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Scene/temp.scene.meta": {
+    "time": 1632200312000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/level1.json.meta": {
+    "time": 1632299232000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/level2.json.meta": {
+    "time": 1632374598000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/level3.json.meta": {
+    "time": 1632374602000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/level4.json.meta": {
+    "time": 1632374610000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/level5.json.meta": {
+    "time": 1632374612000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Scene/prefabs/Breaker_1.prefab.meta": {
+    "time": 1632200378000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Scene/prefabs/Brick_0.prefab.meta": {
+    "time": 1632217914000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_0_cracked.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_0.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_1.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_1_cracked.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_2.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_2_cracked.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_3.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_3_cracked.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_4.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_4_cracked.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_5.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_5_cracked.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_6.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_6_cracked.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/Ball_1.prefab.meta": {
+    "time": 1632215394000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_7.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Bricks/Brick_7_cracked.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/Ball_1.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/Ball_2.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/Ball_3.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/Breaker_1.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/bg.jpeg.meta": {
+    "time": 1632507700000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/fire_0.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/bottom.jpeg.meta": {
+    "time": 1632204064000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/fire_1.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/fire_2.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/fire_3.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/fruitApple.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/fruitBabbu.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/fruitBanana.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/fruitGrapes.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/icebase.png.meta": {
+    "time": 1632206156000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/refresh.png.meta": {
+    "time": 1632194990000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/playbutton.png.meta": {
+    "time": 1632196294000
+  },
+  "/Users/chandankrishnani/Downloads/Brick_breaker/assets/Assets/Archive/Extra/photo-1531306728370-e2ebd9d7bb99.jpeg.meta": {
+    "time": 1632198682000
+  }
+}

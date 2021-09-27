@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Brick_5",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 52,
+      "width": 640,
+      "height": 216
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 640,
+      "height": 320
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "6f96dd59-d7a5-48e8-9f74-5b037ce3c876@6c48a",
+    "packable": true
+  }
+}

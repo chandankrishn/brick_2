@@ -1,0 +1,19 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "level2",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "level1": {
+      "no_of_rows": 1,
+      "no_of_columns": 2,
+      "stucture": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    }
+  }
+}
