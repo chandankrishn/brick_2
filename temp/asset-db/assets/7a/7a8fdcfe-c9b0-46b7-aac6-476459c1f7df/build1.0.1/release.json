@@ -74,10 +74,11 @@
             [
                 "enabledContactListener",
                 "_gravityScale",
+                "_angularDamping",
                 "node",
                 "__prefab"
             ],
-            1,
+            0,
             1,
             4
         ],
@@ -156,7 +157,8 @@
             1,
             2,
             3,
-            3
+            4,
+            4
         ],
         [
             6,
@@ -216,6 +218,7 @@
                 [
                     5,
                     true,
+                    2,
                     2,
                     -4,
                     [

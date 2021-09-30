@@ -1,5 +1,6 @@
 
-import { _decorator, Component, Node, Button, tween, Vec2, Vec3, Prefab, instantiate, UITransform, Sprite, systemEvent, SystemEvent, KeyCode, SpriteFrame, Collider2D, Contact2DType, IPhysics2DContact, JsonAsset, Script, director } from 'cc';
+import { _decorator, Component, Node, Button, tween, Vec2, Vec3, Prefab, instantiate, UITransform, Sprite, systemEvent, SystemEvent, KeyCode, SpriteFrame, Collider2D, Contact2DType, IPhysics2DContact, JsonAsset, Script, director, RenderFlow, RigidBody2D, game, spriteAssembler, Label, sys, Intersection2D } from 'cc';
+import { SingletonClass } from './single';
 const { ccclass, property } = _decorator;
 /**
  * Predefined variables
@@ -14,11 +15,12 @@ const { ccclass, property } = _decorator;
  */
 enum tiles
 {
-   Onetimes=1,
-   twoTimes=2,
-   rewardtiles=3
+   ONCE=1,
+   TWICE=2,
+   THRICE=3
 
 }
+var scoreManager:SingletonClass = SingletonClass.getInstance();
 
 @ccclass('Mainscript')
 export class Mainscript extends Component {
@@ -41,36 +43,46 @@ ball:any;
 brick:any;
 @property(SpriteFrame)
 Normal_bricks=[];
+@property(Prefab)
+reword:any;
+@property(Prefab)
+popup:any;
+
+
 @property(JsonAsset)
 levels:any=[];
+
+@property(Label)
+level_string:Label;
+@property(Label)
+score_string:Label;
+
+
+@property(SpriteFrame)
+rewords_images=[];
+
 redball:any;
 bouncer:any;
 height:number;
 width:number;
 temp_bricks:any;
 titlelist:string[]=[];
+fruits:any=[];
 tile_count:number=0;
 current_level:number=0;
+fruitprefab:any;
+playerscore:number=0;
+reward_fruit=[];
+start_fruit:number=0;
+nextlevel:any;
+popoutscript:any;
+moveOn:boolean=false;
 
 
-Are_they_rewardBrick(i:number)
-{
-    var reward_bricks=this.titlelist["rewards_tile"];
-    for(var j=0;j<reward_bricks.length;j++)
-    {
-        if(reward_bricks[j]==i)
-        {
-           
-            return true;
-
-        }
-        
-    }
-    return false;
-}
 
 boxpattern(asset:any)
 {
+
     this.titlelist = asset.json["level1"];
     let row=this.titlelist["no_of_rows"];
     var columns=this.titlelist["no_of_columns"];
@@ -78,53 +90,63 @@ boxpattern(asset:any)
     var width:number=-(this.width/2);
     var scalex:any=((this.width-50)/columns)/this.brick.data.width;
 
-        var startpositionx:number=(((this.brick.data.width)*scalex)/2)+25;
-        var startpositiony:number=(((this.brick.data.height)*scalex)/2)+25;
-        var brick_sizex:number=0;
-        var brick_sizey:number=0;
-        var positionx:number=0;
-        var positiony:number=0;
 
-        var count:number=1;
-       for(var i=0;i<row*columns;i++)
-       {
-       
-        if(this.titlelist["stucture"][i]>=1)
+        this.brick.data.scale.x=scalex;
+        this.brick.data.scale.y=scalex;
+        var startpositionx:number=(width)+25+(((this.brick.data.width)*scalex)/2);
+        var startpositiony:number=(height)-(25+((this.brick.data.height*scalex)/2));
+        var tile_widht:number=(this.brick.data.width)*scalex;
+        var tile_height:number=(this.brick.data.height)*scalex;
+        var numberOfTiles:any=this.titlelist["Tiles"];
+        var index:number=0;
+        var color:number=0;
+        var type:number=0;
+        var current_positionx:number=0;
+        var current_positiony:number=0;
+        this.tile_count=numberOfTiles.length;
+        
+        for(var i=0;i<numberOfTiles.length;i++)
         {
-          
-            this.temp_bricks=instantiate(this.brick);
-              this.node.addChild(this.temp_bricks);
-              
-              this.temp_bricks.setScale(scalex,scalex,1);
-              this.temp_bricks.getComponent(Sprite).spriteFrame=this.Normal_bricks[this.titlelist["stucture"][i]-1];
-              this.temp_bricks.brokensprite=this.titlelist["stucture"][i]-1;
-
-
-              this.temp_bricks.name="Normal_bricks";
-              var reward=this.Are_they_rewardBrick(i);
-              
-              this.temp_bricks.reward_bricks=reward;
-              
-              positionx=width+startpositionx+brick_sizex;        
-              positiony=height-(startpositiony + brick_sizey);
-              this.temp_bricks.setPosition(positionx,positiony,0);
-              brick_sizex=((this.brick.data.width)*scalex)+brick_sizex;
-              ++this.tile_count;
+            
+           this.temp_bricks=instantiate(this.brick);
+           this.node.addChild(this.temp_bricks);
+        
+           type=numberOfTiles[i].type;
+           index=numberOfTiles[i].index;
+           color=numberOfTiles[i].color;
+           switch(type)
+           {
+           case tiles.ONCE:
+               {
+                   this.temp_bricks.hasrewards=false;
+                   this.temp_bricks.colidetime=tiles.ONCE;
+                   break;
+               }
+            case tiles.TWICE:
+                {
+                    this.temp_bricks.hasrewards=false;
+                    this.temp_bricks.colidetime=tiles.TWICE;
+                    break;
+                }
+            case tiles.THRICE:
+                {
+                   
+                    this.temp_bricks.hasrewards=true;
+                    this.temp_bricks.colidetime=tiles.THRICE;
+                    break;
+                }
+           }
+           this.temp_bricks.name=`Normal_bricks`;
+            this.temp_bricks.getComponent(Sprite).spriteFrame=this.Normal_bricks[color];
+            this.temp_bricks.brickindex=color;
+            current_positionx=startpositionx + (Math.floor(index % columns)*tile_widht);
+            current_positiony=startpositiony - (Math.floor(index / columns)*tile_height);
+            this.temp_bricks.setPosition(current_positionx,current_positiony,1);
         }
-        if(this.titlelist["stucture"][i]==0)
-        {
-            brick_sizex=((this.brick.data.width)*scalex)+brick_sizex;
-        }
-        if(count==columns)
-        {
-            count=0;
-            brick_sizey=(this.brick.data.height)*scalex + brick_sizey + 10;
-            brick_sizex=0;
-        }
-        count++;
+        this.wait=true;
 
-       }
 }
+
  buttonpressed()
  {
     tween(this.Play_button.node)
@@ -134,22 +156,28 @@ boxpattern(asset:any)
     .delay(0.3)
     .to(0.2,{scale :new Vec3(0,0,0)})
     .start();
-    this.gamePlayStart();
- 
+
+    this.current_level=scoreManager.getlevelSelected()-1;
+    this.gamePlayStart(this.current_level);
  }
  onBeginContact (selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) 
  {  
     if(otherCollider.name=="Ball_1<CircleCollider2D>")
     {
-        otherCollider.getComponent(Sprite).destroy();
-        otherCollider.destroy();
+        this.gameoverpop();
         console.log("Game over");
-        director.pause();
+     
     }
-}
- 
+    else
+    {
+        this.reward_fruit.shift();
+    }
+    otherCollider.getComponent(Sprite).destroy();
+    otherCollider.destroy();
+} 
  checkbasecollision()
  {
+     
      let colider=this.base.node.getComponent(Collider2D);
      if(colider)
      {
@@ -157,18 +185,44 @@ boxpattern(asset:any)
      }
 
  }
-
- gamePlayStart()
+ testing(positionx:number,positiony:number,positionz:number)
  {
-     this.bouncer=instantiate(this.Breaker);
-     this.node.addChild(this.bouncer);
+
+     this.fruitprefab= instantiate(this.reword);
+     this.node.addChild(this.fruitprefab);
+     var random=Math.floor(Math.random()*4);
+     this.fruitprefab.getComponent(Sprite).spriteFrame=this.rewords_images[random];
+     this.fruitprefab.setPosition(positionx,positiony,positionz);
+     this.reward_fruit.push(this.fruitprefab);
+ }
+ Fruit_collision(reword:any)
+ {
+    
+    var colide1=Intersection2D.rectRect(
+        reword.getComponent(UITransform).getBoundingBoxToWorld(),this.bouncer.getComponent(UITransform).getBoundingBoxToWorld()
+        );
+       
+    return colide1;
+ }
+ Fruit_basecollision(reword:any)
+ {
+    var colide1=Intersection2D.rectRect(
+        reword.getComponent(UITransform).getBoundingBoxToWorld(),this.base.getComponent(UITransform).getBoundingBoxToWorld()
+        );
+    return colide1;
+ }
+ gamePlayStart(level:number)
+ {
      this.redball=instantiate(this.ball);
      this.node.addChild(this.redball);
+     let abc:any = this.redball.getComponent('Ball');
+     this.moveOn=true;
+     abc.bg_node(this);
      this.height=this.node.getComponent(UITransform).height;
      this.width=this.node.getComponent(UITransform).width;
-     this.bouncer.setPosition(0,-(this.height/2)+100,0);
+     this.bouncer.setPosition(0,-(this.height/2)+150,0);
      tween(this.base.node)
-     .to(0.5,{position : new Vec3(0,-(this.height/2),0)})
+     .to(0.5,{position : new Vec3(0,-(this.height/2)+50,0)})
      .start();
 
      tween(this.right.node)
@@ -183,45 +237,149 @@ boxpattern(asset:any)
      .to(0.5,{position : new Vec3(0,(this.height/2),0)})
      .start();
      this.checkbasecollision();
-     this.boxpattern(this.levels[this.current_level++]);
+     this.boxpattern(this.levels[level]);
  }
+ bricks_destroyed:number=0;
+ wait:boolean=false;
  Nextlevelcheck()
  {
     let ball_id:any=this.redball.getComponent('Ball').bricks_destroyed;
-    if(this.tile_count==ball_id.length)
+
+    if(this.tile_count==ball_id.length && this.reward_fruit.length==0 && this.wait)
     {
-        this.redball.getComponent('Ball').bricks_destroyed.length=0;
-        this.tile_count=0;
+        this.moveOn=false;
+        this.wait=false;
+        sys.localStorage.setItem('levelcompleted' ,`${scoreManager.getCurrent()+1 }`);
+        this.bricks_destroyed=this.redball.getComponent('Ball').bricks_destroyed.length;
         this.redball.destroy();
-        this.bouncer.destroy();
-        this.gamePlayStart();
+        this.nextlevelpop();
+        this.tile_count=0;
+        
     }
     
  }
-    touchMove(event:any)
+ gameoverpop()
+ {
+    this.nextlevel=instantiate(this.popup);
+    this.node.addChild(this.nextlevel);
+    this.nextlevel.getChildByName('play').destroy();
+    this.nextlevel.setPosition(0,-((this.height/2 )+ this.popup.data.height),0);
+    tween(this.nextlevel)
+    .to(0.5,{position : new Vec3(0,0,0)})
+   .start();
+ }
+ pop_down_next_level()
+ {
+   
+    tween(this.nextlevel)
+    .to(0.5,{position : new Vec3(0,-((this.height/2 )+ this.popup.data.height),0)})
+    .delay(0.5)
+    .call(()=>{this.nextlevel.destroy();})
+    .start();
+ }
+ flushall()
+ {
+  
+    var chil:Node;
+        chil=this.node.getChildByName('Normal_bricks');
+        while(chil)
+        {
+           chil.removeFromParent();
+           chil=this.node.getChildByName('Normal_bricks');
+        }
+    
+ }
+
+ clickcall()
+ {
+    if(scoreManager.getNextLevel())
     {
-        let current:number;
-        if(event.getLocation().x>(this.width/2))
-        {
-            current=event.getLocation().x-this.width/2;
-        }
-        
-        else
-        {
-            current=-((this.width/2)-event.getLocation().x);
-        }
+        scoreManager.setNextLevel(false);
+        console.log("Next level");
+        this.gamePlayStart(++this.current_level);
+        this.moveOn=true;
+        this.pop_down_next_level();
        
-        if(current<this.width/2-70 && current>-(this.width/2)+70)
-        {
-        this.bouncer.setPosition(current,-(this.height/2)+100,0);
-        }
-        this.Nextlevelcheck()
-     
     }
-    onLoad()
+    else if(scoreManager.getHomeScreen())
     {
-        // systemEvent.on(SystemEvent.EventType.KEY_DOWN,this.mouseMove,this);
+        console.log("Home screen");
+        this.pop_down_next_level();
+        director.loadScene('level');
+        scoreManager.setHomeScreen(false);
+    }
+   
+    else if(scoreManager.getReload())
+    {
+        scoreManager.setReload(false);
+        console.log("Reload clicked");
+        this.moveOn=true;
+
+        this.pop_down_next_level();
+         console.log("before flush");
+        this.flushall();
+        console.log("flushed");
+        this.gamePlayStart(this.current_level);
+    }
+ }
+
+ nextlevelpop()
+ {
+     this.nextlevel=instantiate(this.popup);
+     this.node.addChild(this.nextlevel);
+     this.nextlevel.setPosition(0,-((this.height/2)+ this.popup.data.height),0);
+     tween(this.nextlevel)
+     .to(0.5,{position : new Vec3(0,0,0)})
+    .start();
+   
+ }
+
+touchMove(event:any)
+    {
+        if(this.moveOn)
+        {
+        let current:Vec3=this.node.getComponent(UITransform).convertToNodeSpaceAR(new Vec3(event.getUILocation().x,event.getUILocation().y,1));
+        var xpos=(current.x); 
+        let moon=this.base.node.width/5;
+        if((this.width/2)-(this.Breaker.data.width/2)>xpos && -((this.width/2)-(this.Breaker.data.width/2))<xpos)
+        {
+
+        this.bouncer.setPosition(xpos,-(this.height/2)+moon,0);
+        }
+    }
+    
+    }
+update()
+    {
+        this.level_string.getComponent(Label).string=`Level No:${this.current_level+1}`;
+        this.clickcall();
+        for(let i=0;i<this.reward_fruit.length;i++)
+        {
+            this.reward_fruit[i].setPosition(this.reward_fruit[i].position.x,this.reward_fruit[i].position.y-10,1);
+            if(this.Fruit_collision(this.reward_fruit[i]))
+            {
+                this.playerscore=+2;
+                this.reward_fruit[i].destroy();
+                this.reward_fruit.shift();
+            }
+            if(this.Fruit_basecollision(this.reward_fruit[i]))
+            {
+                this.reward_fruit[i].destroy();
+                this.reward_fruit.shift();
+                
+            }
+        }
+        this.Nextlevelcheck();       
+      
+       
+
+    }
+onLoad()
+    {
+        this.bouncer=instantiate(this.Breaker);
+        this.node.addChild(this.bouncer);
         systemEvent.on(SystemEvent.EventType.TOUCH_MOVE,this.touchMove,this);
+     
         
     }
 }

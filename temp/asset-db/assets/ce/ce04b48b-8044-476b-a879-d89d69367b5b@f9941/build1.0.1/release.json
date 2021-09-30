@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "ceBLSLgERHa6h52J1pNntb@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "scrollbg",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1616,
+                "height": 1215
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 1616,
+                "height": 1215
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "packable": true
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

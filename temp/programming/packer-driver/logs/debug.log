@@ -1,23 +1,23 @@
-debug: Sun, 26 Sep 2021 15:13:03 GMT
-debug: Project: C:\Users\krish\Downloads\Brick_breaker-20210925T064351Z-001\Brick_breaker
+debug: Thu, 30 Sep 2021 10:58:41 GMT
+debug: Project: /Users/chandankrishnani/Downloads/Brick_breaker
 debug: Targets: editor,preview
 debug: Incremental file seems great.
-debug: Engine path: C:\CocosDashboard_1.0.17\resources\.editors\Creator\3.3.0\resources\resources\3d\engine
+debug: Engine path: /Users/chandankrishnani/Documents/project/CocosCreator 2.app/Contents/Resources/resources/3d/engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 475.51170015335083ms.
+debug: Loading cache costs 1.3822450004518032ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 108.30800008773804ms.
+debug: Loading cache costs 1.1355450004339218ms.
 debug: Sync engine features: base,gfx-webgl,2d,ui,physics-2d-box2d,intersection-2d,profiler,particle-2d,audio,video,webview,tween,tiled-map,spine,dragon-bones
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 10.009999990463257ms.
+debug: Fetch asset-db cost: 10.859665997326374ms.
 debug: Build iteration starts.
-Number of accumulated asset changes: 2
+Number of accumulated asset changes: 7
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 05:30:41 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:33:38 GMT+0530 (India Standard Time)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 05:30:09 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:30:09 GMT+0530 (India Standard Time)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -40,13 +40,20 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:14:37 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:35:37 GMT+0530 (India Standard Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:08:47 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:30:21 GMT+0530 (India Standard Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
-debug: Target(editor) ends with cost 2285.2444999217987ms.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Sep 30 2021 09:49:31 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:28:32 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Target(editor) ends with cost 166.17130099982023ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 05:30:41 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:33:38 GMT+0530 (India Standard Time)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 05:30:09 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:30:09 GMT+0530 (India Standard Time)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -64,104 +71,505 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:14:37 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:35:40 GMT+0530 (India Standard Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:08:47 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:30:21 GMT+0530 (India Standard Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
-debug: Target(preview) ends with cost 129.91170001029968ms.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Sep 30 2021 09:49:31 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:28:32 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Target(preview) ends with cost 193.24550599977374ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:35:37 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:43:20 GMT+0530 (India Standard Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:30:21 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:32:57 GMT+0530 (India Standard Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
-debug: Detected change: file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Sat Sep 25 2021 23:43:17 GMT+0530 (India Standard Time), Current mtime: Sun Sep 26 2021 20:52:45 GMT+0530 (India Standard Time)
-debug: Inspect file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts
-debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 1330.7582001686096ms.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:28:17 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:31:27 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(editor) ends with cost 522.5329429991543ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:35:40 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:43:22 GMT+0530 (India Standard Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:30:21 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:32:57 GMT+0530 (India Standard Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
-debug: Detected change: file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Sat Sep 25 2021 23:43:17 GMT+0530 (India Standard Time), Current mtime: Sun Sep 26 2021 20:52:45 GMT+0530 (India Standard Time)
-debug: Inspect file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts
-debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 340.40689992904663ms.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:28:17 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:31:27 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(preview) ends with cost 363.6565859988332ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:43:20 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:47:03 GMT+0530 (India Standard Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:32:57 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:34:08 GMT+0530 (India Standard Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
-debug: Detected change: file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Sun Sep 26 2021 20:52:45 GMT+0530 (India Standard Time), Current mtime: Sun Sep 26 2021 20:56:27 GMT+0530 (India Standard Time)
-debug: Inspect file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts
-debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 180.2969000339508ms.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:31:27 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:32:39 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(editor) ends with cost 151.3567329980433ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:43:22 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:47:04 GMT+0530 (India Standard Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:32:57 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:34:08 GMT+0530 (India Standard Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
-debug: Detected change: file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Sun Sep 26 2021 20:52:45 GMT+0530 (India Standard Time), Current mtime: Sun Sep 26 2021 20:56:27 GMT+0530 (India Standard Time)
-debug: Inspect file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts
-debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 262.45910000801086ms.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:31:27 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:32:39 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(preview) ends with cost 165.84177700057626ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:47:03 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:57:52 GMT+0530 (India Standard Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:34:08 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:34:55 GMT+0530 (India Standard Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
-debug: Detected change: file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Sun Sep 26 2021 20:56:27 GMT+0530 (India Standard Time), Current mtime: Sun Sep 26 2021 21:06:13 GMT+0530 (India Standard Time)
-debug: Inspect file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts
-debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 371.8187999725342ms.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:32:39 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:33:25 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(editor) ends with cost 144.83086900040507ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:47:04 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:57:53 GMT+0530 (India Standard Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:34:08 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:34:55 GMT+0530 (India Standard Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
-debug: Detected change: file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Sun Sep 26 2021 20:56:27 GMT+0530 (India Standard Time), Current mtime: Sun Sep 26 2021 21:06:13 GMT+0530 (India Standard Time)
-debug: Inspect file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts
-debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 471.0801999568939ms.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:32:39 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:33:25 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(preview) ends with cost 238.61092000082135ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:57:52 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:59:46 GMT+0530 (India Standard Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:34:55 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:36:07 GMT+0530 (India Standard Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
-debug: Detected change: file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Sun Sep 26 2021 21:06:13 GMT+0530 (India Standard Time), Current mtime: Sun Sep 26 2021 21:09:08 GMT+0530 (India Standard Time)
-debug: Inspect file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts
-debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 283.74330019950867ms.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:33:25 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:34:37 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(editor) ends with cost 185.02389200031757ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:57:53 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:59:46 GMT+0530 (India Standard Time)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:34:55 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:36:07 GMT+0530 (India Standard Time)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts.
-debug: Resolve file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/ball.ts.
-debug: Detected change: file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Sun Sep 26 2021 21:06:13 GMT+0530 (India Standard Time), Current mtime: Sun Sep 26 2021 21:09:08 GMT+0530 (India Standard Time)
-debug: Inspect file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts
-debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///C:/Users/krish/Downloads/Brick_breaker-20210925T064351Z-001/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 248.12490010261536ms.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:33:25 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:34:37 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(preview) ends with cost 259.2645669989288ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:36:07 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:38:27 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:34:37 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:36:57 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(editor) ends with cost 130.14020800217986ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:36:07 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:38:27 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:34:37 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:36:57 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(preview) ends with cost 216.94623700156808ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:38:27 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:40:08 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:36:57 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:38:38 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(editor) ends with cost 120.04502600058913ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:38:27 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:40:08 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:36:57 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:38:38 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(preview) ends with cost 142.66544799879193ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:40:08 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:40:49 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:38:38 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:39:19 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(editor) ends with cost 134.29946099966764ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:40:08 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:40:49 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:38:38 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:39:19 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(preview) ends with cost 194.24553499743342ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:40:49 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:42:51 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:39:19 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:41:22 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(editor) ends with cost 125.89026500284672ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:40:49 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:42:51 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:39:19 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:41:22 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(preview) ends with cost 187.22076600044966ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:42:51 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:43:55 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:41:22 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:42:26 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(editor) ends with cost 102.0424139983952ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:42:51 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:43:55 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts. Last mtime: Thu Sep 30 2021 16:41:22 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:42:26 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(preview) ends with cost 165.80824400112033ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:43:55 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:47:08 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Thu Sep 30 2021 16:15:10 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:45:38 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(editor) ends with cost 234.88572100177407ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:43:55 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:47:08 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Thu Sep 30 2021 16:15:10 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:45:38 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(preview) ends with cost 395.411424998194ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:47:08 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:49:19 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Thu Sep 30 2021 16:45:38 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:47:49 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(editor) ends with cost 479.09991800040007ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:47:08 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:49:19 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Thu Sep 30 2021 16:45:38 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 16:47:49 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(preview) ends with cost 365.49364000186324ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:49:19 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 06:57:00 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Thu Sep 30 2021 16:47:49 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 17:50:24 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(editor) ends with cost 326.35363099724054ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:49:19 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 06:57:00 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts. Last mtime: Thu Sep 30 2021 16:47:49 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 17:50:24 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as cce:/internal/x/cc.
+debug: Resolve ./single from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Target(preview) ends with cost 528.7646830007434ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 06:57:00 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 07:15:07 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts. Last mtime: Thu Sep 30 2021 16:00:16 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 18:13:38 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 180.54929500073195ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 06:57:00 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 07:15:07 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts.
+debug: Resolve file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts from cce:/internal/x/prerequisite-imports as file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts.
+debug: Detected change: file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts. Last mtime: Thu Sep 30 2021 16:00:16 GMT+0530 (India Standard Time), Current mtime: Thu Sep 30 2021 18:13:38 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 197.45934200286865ms.

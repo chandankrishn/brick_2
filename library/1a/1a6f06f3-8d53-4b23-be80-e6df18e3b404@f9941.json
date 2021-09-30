@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 1,
+      "width": 799,
+      "height": 278
+    },
+    "offset": {
+      "x": 0.5,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 800,
+      "height": 279
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "1a6f06f3-8d53-4b23-be80-e6df18e3b404@6c48a",
+    "packable": true
+  }
+}

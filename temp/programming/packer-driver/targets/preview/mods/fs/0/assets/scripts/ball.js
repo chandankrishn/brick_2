@@ -66,16 +66,15 @@ System.register(["cc"], function (_export, _context) {
 
           _defineProperty(_assertThisInitialized(_this), "alldestroyed", false);
 
+          _defineProperty(_assertThisInitialized(_this), "reword_instance", null);
+
+          _defineProperty(_assertThisInitialized(_this), "bg", null);
+
           return _this;
         }
 
         var _proto = Ball.prototype;
 
-        // [1]
-        // dummy = '';
-        // [2]
-        // @property
-        // serializableDummy = 0;
         _proto.start = function start() {
           var collider = this.node.getComponent(Collider2D);
 
@@ -87,30 +86,28 @@ System.register(["cc"], function (_export, _context) {
 
         };
 
+        _proto.bg_node = function bg_node(background) {
+          this.bg = background;
+        };
+
         _proto.onBeginContact = function onBeginContact(selfCollider, otherCollider, contact) {
           var name = "Normal_bricks";
           var colider_type = "<BoxCollider2D>";
-          console.log(otherCollider);
+          var par = this.node.getParent();
 
           if (otherCollider.name == name + colider_type) {
-            var flag = false;
-
-            for (var i = 0; i < this.bricks.length; i++) {
-              if (otherCollider.uuid === this.bricks[i]) {
-                flag = true;
-                break;
+            if (otherCollider.node.colidetime < 1) {
+              if (otherCollider.node.hasrewards) {
+                this.bg.testing(otherCollider.node.position.x, otherCollider.node.position.y, otherCollider.node.position.z);
               }
-            }
 
-            if (flag) {
-              if (!otherCollider.node.reward_bricks) {
-                this.bricks_destroyed.push(otherCollider.uuid);
-                otherCollider.getComponent(Sprite).destroy();
-                otherCollider.destroy();
-              }
+              this.bricks_destroyed.push(otherCollider.uuid);
+              otherCollider.getComponent(Sprite).destroy();
+              par.removeChild(otherCollider);
+              otherCollider.destroy();
             } else {
-              this.bricks.push(otherCollider.uuid);
-              otherCollider.getComponent(Sprite).spriteFrame = this.damaged_bricks[otherCollider.node.brokensprite];
+              otherCollider.getComponent(Sprite).spriteFrame = this.damaged_bricks[otherCollider.node.brickindex];
+              otherCollider.node.colidetime = otherCollider.node.colidetime - 1;
             }
           }
         };

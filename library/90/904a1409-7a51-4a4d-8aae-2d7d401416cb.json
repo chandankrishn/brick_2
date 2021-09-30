@@ -124,6 +124,9 @@
     "_children": [
       {
         "__id__": 5
+      },
+      {
+        "__id__": 7
       }
     ],
     "_active": true,
@@ -174,15 +177,11 @@
     "_parent": {
       "__id__": 4
     },
-    "_children": [
-      {
-        "__id__": 6
-      }
-    ],
+    "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 14
+        "__id__": 6
       }
     ],
     "_prefab": null,
@@ -213,113 +212,6 @@
       "z": 0
     },
     "_id": "efrrsHK71EjoMiQv09JxKn"
-  },
-  {
-    "__type__": "cc.Node",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 5
-    },
-    "_prefab": {
-      "__id__": 7
-    }
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 6
-    },
-    "asset": {
-      "__uuid__": "6cf18ac5-89a5-44e1-a00c-c5eafe28d715",
-      "__expectedType__": "cc.Prefab"
-    },
-    "fileId": "aeWQr8l0tJu5hpU8F5gIHT",
-    "instance": {
-      "__id__": 8
-    }
-  },
-  {
-    "__type__": "cc.PrefabInstance",
-    "fileId": "7aSR57xS9KVJkRFxFq/j1Z",
-    "mountedChildren": [],
-    "mountedComponents": [],
-    "propertyOverrides": [
-      {
-        "__id__": 9
-      },
-      {
-        "__id__": 11
-      },
-      {
-        "__id__": 12
-      },
-      {
-        "__id__": 13
-      }
-    ],
-    "removedComponents": []
-  },
-  {
-    "__type__": "CCPropertyOverrideInfo",
-    "targetInfo": {
-      "__id__": 10
-    },
-    "propertyPath": [
-      "_name"
-    ],
-    "value": "Brick_0"
-  },
-  {
-    "__type__": "cc.TargetInfo",
-    "localID": [
-      "aeWQr8l0tJu5hpU8F5gIHT"
-    ]
-  },
-  {
-    "__type__": "CCPropertyOverrideInfo",
-    "targetInfo": {
-      "__id__": 10
-    },
-    "propertyPath": [
-      "_lpos"
-    ],
-    "value": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": -1000
-    }
-  },
-  {
-    "__type__": "CCPropertyOverrideInfo",
-    "targetInfo": {
-      "__id__": 10
-    },
-    "propertyPath": [
-      "_lrot"
-    ],
-    "value": {
-      "__type__": "cc.Quat",
-      "x": 0,
-      "y": 0,
-      "z": 0,
-      "w": 1
-    }
-  },
-  {
-    "__type__": "CCPropertyOverrideInfo",
-    "targetInfo": {
-      "__id__": 10
-    },
-    "propertyPath": [
-      "_euler"
-    ],
-    "value": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    }
   },
   {
     "__type__": "cc.Camera",
@@ -363,6 +255,113 @@
     "_id": "benxDjerVLfJBbiCjYSF7Q"
   },
   {
+    "__type__": "cc.Node",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 4
+    },
+    "_prefab": {
+      "__id__": 8
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 7
+    },
+    "asset": {
+      "__uuid__": "57874f1d-fe0f-4ba3-887c-27ea9206c177",
+      "__expectedType__": "cc.Prefab"
+    },
+    "fileId": "58d1WAvvdMfJpIUtoUuWRb",
+    "instance": {
+      "__id__": 9
+    }
+  },
+  {
+    "__type__": "cc.PrefabInstance",
+    "fileId": "9etRPjwf1BUZNrXdIMXIfE",
+    "mountedChildren": [],
+    "mountedComponents": [],
+    "propertyOverrides": [
+      {
+        "__id__": 10
+      },
+      {
+        "__id__": 12
+      },
+      {
+        "__id__": 13
+      },
+      {
+        "__id__": 14
+      }
+    ],
+    "removedComponents": []
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 11
+    },
+    "propertyPath": [
+      "_name"
+    ],
+    "value": "poup"
+  },
+  {
+    "__type__": "cc.TargetInfo",
+    "localID": [
+      "58d1WAvvdMfJpIUtoUuWRb"
+    ]
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 11
+    },
+    "propertyPath": [
+      "_lpos"
+    ],
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": 11.206,
+      "y": 17,
+      "z": 0
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 11
+    },
+    "propertyPath": [
+      "_lrot"
+    ],
+    "value": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 11
+    },
+    "propertyPath": [
+      "_euler"
+    ],
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
@@ -401,7 +400,7 @@
       "__id__": 18
     },
     "_cameraComponent": {
-      "__id__": 14
+      "__id__": 6
     },
     "_alignCanvasWithScreen": true,
     "_id": "64Qd33VgJCqqcnY6KYcWgd"

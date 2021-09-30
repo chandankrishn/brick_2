@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "2dnVDaDExAFJpGC0k/EBaC@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "lock",
+            "rect": {
+                "x": 128,
+                "y": 42,
+                "width": 768,
+                "height": 982
+            },
+            "offset": {
+                "x": 0,
+                "y": -21
+            },
+            "originalSize": {
+                "width": 1024,
+                "height": 1024
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "packable": true
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]
