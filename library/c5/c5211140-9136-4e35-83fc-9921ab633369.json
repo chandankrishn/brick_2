@@ -1,33 +1,18 @@
 {
   "__type__": "cc.JsonAsset",
-  "_name": "level1",
+  "_name": "jsondummy",
   "_objFlags": 0,
   "_native": "",
   "json": {
     "level1": {
-      "no_of_rows": 2,
-      "no_of_columns": 3,
-      "Tiles": [
-        {
-          "index": 0,
-          "color": 1,
-          "type": 3
-        },
-        {
-          "index": 1,
-          "color": 1,
-          "type": 3
-        },
-        {
-          "index": 2,
-          "color": 1,
-          "type": 3
-        },
-        {
-          "index": 4,
-          "color": 1,
-          "type": 3
-        }
+      "no_of_rows": 1,
+      "no_of_columns": 10,
+      "stucture": [
+        1,
+        1,
+        1,
+        1,
+        1
       ]
     }
   }

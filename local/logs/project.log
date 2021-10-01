@@ -1,81 +1,81 @@
-2021-09-30 16:28:36-log: [Package] menu@1.0.0 enable
-2021-09-30 16:28:36-log: [Package] profile@1.0.0 enable
-2021-09-30 16:28:36-log: [Package] messages@1.0.0 enable
-2021-09-30 16:28:36-log: [Package] program@1.0.0 enable
-2021-09-30 16:28:36-log: [Package] device@1.0.1 enable
-2021-09-30 16:28:36-log: [Package] ui-kit@1.0.1 enable
-2021-09-30 16:28:36-log: [Package] tester@1.0.0 enable
-2021-09-30 16:28:36-log: [Package] preferences@1.0.0 enable
-2021-09-30 16:28:37-log: Setup mods mgr.: 340.381ms
-2021-09-30 16:28:37-log: [Package] engine@1.0.5 enable
-2021-09-30 16:28:41-log: [Package] programming@1.0.0 enable
-2021-09-30 16:28:41-log: [Package] asset-db@1.0.0 enable
-2021-09-30 16:28:41-log: [Package] console@1.0.0 enable
-2021-09-30 16:28:41-log: [Package] scene@1.0.0 enable
-2021-09-30 16:28:41-log: [Package] project@1.0.1 enable
-2021-09-30 16:28:41-log: [Package] about@1.0.0 enable
-2021-09-30 16:28:42-log: [Package] server@1.0.0 enable
-2021-09-30 16:28:42-log: [Package] utils@1.0.0 enable
-2021-09-30 16:28:42-log: [Package] assets@1.0.0 enable
-2021-09-30 16:28:42-log: [Package] inspector@1.0.0 enable
-2021-09-30 16:28:42-log: [Package] hierarchy@1.0.0 enable
-2021-09-30 16:28:45-log: [Package] builder@1.2.8 enable
-2021-09-30 16:28:45-log: [Package] node-library@1.0.0 enable
-2021-09-30 16:28:45-log: [Package] shortcuts@1.0.1 enable
-2021-09-30 16:28:45-log: [Package] importer@1.0.0 enable
-2021-09-30 16:28:45-log: [Package] package-asset@1.0.0 enable
-2021-09-30 16:28:45-log: [Package] reference-image@1.0.0 enable
-2021-09-30 16:28:45-log: [Package] channel-upload-tools@1.0.0 enable
-2021-09-30 16:28:45-log: [Package] runtime-dev-tools@1.0.0 enable
-2021-09-30 16:28:45-log: [Package] alipay-mini-game@1.0.0 enable
-2021-09-30 16:28:45-log: [Package] android@1.0.0 enable
-2021-09-30 16:28:45-log: [Package] baidu-mini-game@1.0.0 enable
-2021-09-30 16:28:45-log: [Package] bytedance-mini-game@1.0.0 enable
-2021-09-30 16:28:45-log: [Package] huawei-agc@1.0.0 enable
-2021-09-30 16:28:45-warn: ios:Developer team information not found
-2021-09-30 16:28:45-warn: Command failed: xcrun security find-identity -v -p codesigning
+2021-09-24 09:54:26-log: [Package] menu@1.0.0 enable
+2021-09-24 09:54:26-log: [Package] profile@1.0.0 enable
+2021-09-24 09:54:26-log: [Package] messages@1.0.0 enable
+2021-09-24 09:54:26-log: [Package] program@1.0.0 enable
+2021-09-24 09:54:26-log: [Package] device@1.0.1 enable
+2021-09-24 09:54:26-log: [Package] ui-kit@1.0.1 enable
+2021-09-24 09:54:26-log: [Package] tester@1.0.0 enable
+2021-09-24 09:54:26-log: [Package] preferences@1.0.0 enable
+2021-09-24 09:54:27-log: Setup mods mgr.: 364.636ms
+2021-09-24 09:54:27-log: [Package] engine@1.0.5 enable
+2021-09-24 09:54:32-log: [Package] programming@1.0.0 enable
+2021-09-24 09:54:32-log: [Package] asset-db@1.0.0 enable
+2021-09-24 09:54:32-log: [Package] console@1.0.0 enable
+2021-09-24 09:54:32-log: [Package] scene@1.0.0 enable
+2021-09-24 09:54:32-log: [Package] project@1.0.1 enable
+2021-09-24 09:54:32-log: [Package] about@1.0.0 enable
+2021-09-24 09:54:32-log: [Package] server@1.0.0 enable
+2021-09-24 09:54:32-log: [Package] utils@1.0.0 enable
+2021-09-24 09:54:32-log: [Package] assets@1.0.0 enable
+2021-09-24 09:54:32-log: [Package] inspector@1.0.0 enable
+2021-09-24 09:54:32-log: [Package] hierarchy@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] builder@1.2.8 enable
+2021-09-24 09:54:36-log: [Package] node-library@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] shortcuts@1.0.1 enable
+2021-09-24 09:54:36-log: [Package] importer@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] package-asset@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] reference-image@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] channel-upload-tools@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] runtime-dev-tools@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] alipay-mini-game@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] android@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] baidu-mini-game@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] bytedance-mini-game@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] huawei-agc@1.0.0 enable
+2021-09-24 09:54:36-warn: ios:Developer team information not found
+2021-09-24 09:54:36-warn: Command failed: xcrun security find-identity -v -p codesigning
 xcrun: error: active developer path ("/Applications/Xcode 10.2.app/Contents/Developer") does not exist
 Use `sudo xcode-select --switch path/to/Xcode.app` to specify the Xcode that you wish to use for command line developer tools, or use `xcode-select --install` to install the standalone command line developer tools.
 See `man xcode-select` for more details.
 
-2021-09-30 16:28:45-log: [Package] ios@1.0.0 enable
-2021-09-30 16:28:45-log: [Package] ios-app-clip@1.0.0 enable
-2021-09-30 16:28:45-log: [Package] mac@1.0.0 enable
-2021-09-30 16:28:46-log: [Package] native@1.0.0 enable
-2021-09-30 16:28:46-log: [Package] ohos@1.0.0 enable
-2021-09-30 16:28:46-log: [Package] web-desktop@1.0.0 enable
-2021-09-30 16:28:46-log: [Package] web-mobile@1.0.0 enable
-2021-09-30 16:28:46-log: [Package] wechatgame@1.0.0 enable
-2021-09-30 16:28:46-log: [Package] windows@1.0.0 enable
-2021-09-30 16:28:46-log: [Package] xiaomi-quick-game@1.0.0 enable
-2021-09-30 16:28:46-log: [Package] cocos-play@1.0.0 enable
-2021-09-30 16:28:46-log: [Package] huawei-quick-game@1.0.0 enable
-2021-09-30 16:28:46-log: [Package] link-sure@1.0.0 enable
-2021-09-30 16:28:46-log: [Package] oppo-mini-game@1.0.0 enable
-2021-09-30 16:28:46-log: [Package] qtt@1.0.0 enable
-2021-09-30 16:28:46-log: [Package] vivo-mini-game@1.0.0 enable
-2021-09-30 16:28:46-log: [Package] cocos-service@3.0.1 enable
-2021-09-30 16:28:47-log: [Package] extension@3.0.8 enable
-2021-09-30 16:28:47-log: [Package] im-plugin@3.0.6 enable
-2021-09-30 16:28:47-log: [Package] lightmap@1.0.3 enable
-2021-09-30 16:28:53-warn: Browserslist: caniuse-lite is outdated. Please run:
+2021-09-24 09:54:36-log: [Package] ios@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] ios-app-clip@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] mac@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] native@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] ohos@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] web-desktop@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] web-mobile@1.0.0 enable
+2021-09-24 09:54:36-log: [Package] wechatgame@1.0.0 enable
+2021-09-24 09:54:37-log: [Package] windows@1.0.0 enable
+2021-09-24 09:54:37-log: [Package] xiaomi-quick-game@1.0.0 enable
+2021-09-24 09:54:37-log: [Package] cocos-play@1.0.0 enable
+2021-09-24 09:54:37-log: [Package] huawei-quick-game@1.0.0 enable
+2021-09-24 09:54:37-log: [Package] link-sure@1.0.0 enable
+2021-09-24 09:54:37-log: [Package] oppo-mini-game@1.0.0 enable
+2021-09-24 09:54:37-log: [Package] qtt@1.0.0 enable
+2021-09-24 09:54:37-log: [Package] vivo-mini-game@1.0.0 enable
+2021-09-24 09:54:37-log: [Package] cocos-service@3.0.1 enable
+2021-09-24 09:54:38-log: [Package] extension@3.0.8 enable
+2021-09-24 09:54:38-log: [Package] im-plugin@3.0.6 enable
+2021-09-24 09:54:38-log: [Package] lightmap@1.0.3 enable
+2021-09-24 09:54:44-warn: Browserslist: caniuse-lite is outdated. Please run:
 npx browserslist@latest --update-db
 
 Why you should do it regularly:
 https://github.com/browserslist/browserslist#browsers-data-updating
-2021-09-30 16:28:53-log: [Scene] begin init
-2021-09-30 16:28:53-log: [Scene] require engine end
-2021-09-30 16:28:53-log: [Scene] Serialize end
-2021-09-30 16:28:53-log: [Scene] configureStartup end
-2021-09-30 16:28:53-info: [Scene] WebGL2 device initialized.
-2021-09-30 16:28:53-log: [Scene] Cocos Creator v3.3.0
-2021-09-30 16:28:54-info: [Scene] Forward render pipeline initialized.
-2021-09-30 16:28:54-log: [Scene] openEngine end
-2021-09-30 16:28:54-log: [Scene] configureEngine end
-2021-09-30 18:09:39-error: [Asset DB] Importer exec failed: {asset[/Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/level1.json](c5211140-9136-4e35-83fc-9921ab633369)}
-2021-09-30 18:09:39-error: [Asset DB] /Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/level1.json: Unexpected token { in JSON at position 508
-2021-09-30 18:09:39-error: [Asset DB] SyntaxError: /Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/level1.json: Unexpected token { in JSON at position 508
-    at JSON.parse (<anonymous>)
-    at /Users/chandankrishnani/Documents/project/CocosCreator 2.app/Contents/Resources/app.asar/node_modules/jsonfile/index.js:33:18
-    at /Users/chandankrishnani/Documents/project/CocosCreator 2.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:115:16
-    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+2021-09-24 09:54:45-log: [Scene] begin init
+2021-09-24 09:54:45-log: [Scene] require engine end
+2021-09-24 09:54:45-log: [Scene] Serialize end
+2021-09-24 09:54:45-log: [Scene] configureStartup end
+2021-09-24 09:54:45-info: [Scene] WebGL2 device initialized.
+2021-09-24 09:54:45-log: [Scene] Cocos Creator v3.3.0
+2021-09-24 09:54:45-info: [Scene] Forward render pipeline initialized.
+2021-09-24 09:54:45-log: [Scene] openEngine end
+2021-09-24 09:54:45-log: [Scene] configureEngine end
+2021-09-24 10:17:37-warn: [Build] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+2021-09-24 10:17:38-warn: [Build] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating

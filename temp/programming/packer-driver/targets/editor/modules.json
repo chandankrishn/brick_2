@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 9443.739875998348,
+    "mTimestamp": 8848.323178999999,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -389,11 +389,11 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 6307660.044468999,
+    "mTimestamp": 33089241.001326002,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
-        "value": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts",
+        "value": "file:///Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/Mainscript.ts",
         "rewritten": "__unresolved_0",
         "loc": {
           "start": {
@@ -402,91 +402,21 @@
           },
           "end": {
             "line": 5,
-            "column": 120
+            "column": 124
           }
         }
       },
       {
-        "value": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts",
+        "value": "file:///Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/ball.ts",
         "rewritten": "__unresolved_1",
         "loc": {
           "start": {
             "line": 5,
-            "column": 136
+            "column": 140
           },
           "end": {
             "line": 5,
-            "column": 215
-          }
-        }
-      },
-      {
-        "value": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts",
-        "rewritten": "__unresolved_2",
-        "loc": {
-          "start": {
-            "line": 5,
-            "column": 231
-          },
-          "end": {
-            "line": 5,
-            "column": 315
-          }
-        }
-      },
-      {
-        "value": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts",
-        "rewritten": "__unresolved_3",
-        "loc": {
-          "start": {
-            "line": 5,
-            "column": 331
-          },
-          "end": {
-            "line": 5,
-            "column": 411
-          }
-        }
-      },
-      {
-        "value": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts",
-        "rewritten": "__unresolved_4",
-        "loc": {
-          "start": {
-            "line": 5,
-            "column": 427
-          },
-          "end": {
-            "line": 5,
-            "column": 513
-          }
-        }
-      },
-      {
-        "value": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts",
-        "rewritten": "__unresolved_5",
-        "loc": {
-          "start": {
-            "line": 5,
-            "column": 529
-          },
-          "end": {
-            "line": 5,
-            "column": 615
-          }
-        }
-      },
-      {
-        "value": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts",
-        "rewritten": "__unresolved_6",
-        "loc": {
-          "start": {
-            "line": 5,
-            "column": 631
-          },
-          "end": {
-            "line": 5,
-            "column": 712
+            "column": 223
           }
         }
       }
@@ -497,31 +427,11 @@
     "resolvedImports": [
       {
         "isExternal": false,
-        "url": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts"
+        "url": "file:///Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/Mainscript.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts"
+        "url": "file:///Users/chandankrishnani/CocosPractice/Brick_breaker/assets/scripts/ball.ts"
       }
     ]
   },
@@ -592,391 +502,6 @@
       {
         "isExternal": false,
         "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/ball.ts": {
-    "mTimestamp": 1633005818705.2346,
-    "chunkId": "assets/scripts/ball.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 176
-          },
-          "end": {
-            "line": 2,
-            "column": 180
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/Mainscript.ts": {
-    "mTimestamp": 1633004424241.7134,
-    "chunkId": "assets/scripts/Mainscript.js",
-    "imports": [
-      {
-        "value": "cce:/internal/code-quality/cr.mjs",
-        "rewritten": "__unresolved_0"
-      },
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 312
-          },
-          "end": {
-            "line": 2,
-            "column": 316
-          }
-        }
-      },
-      {
-        "value": "./single",
-        "rewritten": "__unresolved_1",
-        "loc": {
-          "start": {
-            "line": 3,
-            "column": 31
-          },
-          "end": {
-            "line": 3,
-            "column": 41
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/code-quality/cr.mjs"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts"
-      }
-    ]
-  },
-  "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/scenechange.ts": {
-    "mTimestamp": 1632906914413.5847,
-    "chunkId": "assets/scripts/scenechange.js",
-    "imports": [
-      {
-        "value": "cce:/internal/code-quality/cr.mjs",
-        "rewritten": "__unresolved_0"
-      },
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 62
-          },
-          "end": {
-            "line": 2,
-            "column": 66
-          }
-        }
-      },
-      {
-        "value": "./single",
-        "rewritten": "__unresolved_1",
-        "loc": {
-          "start": {
-            "line": 3,
-            "column": 31
-          },
-          "end": {
-            "line": 3,
-            "column": 41
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/code-quality/cr.mjs"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts"
-      }
-    ]
-  },
-  "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/singleton.ts": {
-    "mTimestamp": 1632898329768.8672,
-    "chunkId": "assets/scripts/singleton.js",
-    "imports": [
-      {
-        "value": "cc"
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts": {
-    "mTimestamp": 1632999493905.038,
-    "chunkId": "assets/scripts/single.js",
-    "imports": [
-      {
-        "value": "cc"
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "cce:/internal/code-quality/cr.mjs": {
-    "mTimestamp": 1632999512316,
-    "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
-    "imports": [],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": []
-  },
-  "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/selectlevel.ts": {
-    "mTimestamp": 1633000346440.416,
-    "chunkId": "assets/scripts/selectlevel.js",
-    "imports": [
-      {
-        "value": "cce:/internal/code-quality/cr.mjs",
-        "rewritten": "__unresolved_0"
-      },
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 110
-          },
-          "end": {
-            "line": 2,
-            "column": 114
-          }
-        }
-      },
-      {
-        "value": "./single",
-        "rewritten": "__unresolved_1",
-        "loc": {
-          "start": {
-            "line": 3,
-            "column": 31
-          },
-          "end": {
-            "line": 3,
-            "column": 41
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/code-quality/cr.mjs"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts"
-      }
-    ]
-  },
-  "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/leveldata.ts": {
-    "mTimestamp": 1632998894555.2502,
-    "chunkId": "assets/scripts/leveldata.js",
-    "imports": [
-      {
-        "value": "cce:/internal/code-quality/cr.mjs",
-        "rewritten": "__unresolved_0"
-      },
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 80
-          },
-          "end": {
-            "line": 2,
-            "column": 84
-          }
-        }
-      },
-      {
-        "value": "./single",
-        "rewritten": "__unresolved_1",
-        "loc": {
-          "start": {
-            "line": 3,
-            "column": 31
-          },
-          "end": {
-            "line": 3,
-            "column": 41
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/code-quality/cr.mjs"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts"
-      }
-    ]
-  },
-  "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/popup.ts": {
-    "mTimestamp": 1632997732900.466,
-    "chunkId": "assets/scripts/popup.js",
-    "imports": [
-      {
-        "value": "cce:/internal/code-quality/cr.mjs",
-        "rewritten": "__unresolved_0"
-      },
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 44
-          },
-          "end": {
-            "line": 2,
-            "column": 48
-          }
-        }
-      },
-      {
-        "value": "./single",
-        "rewritten": "__unresolved_1",
-        "loc": {
-          "start": {
-            "line": 3,
-            "column": 31
-          },
-          "end": {
-            "line": 3,
-            "column": 41
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/code-quality/cr.mjs"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "file:///Users/chandankrishnani/Downloads/Brick_breaker/assets/scripts/single.ts"
       }
     ]
   }

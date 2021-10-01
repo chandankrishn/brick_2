@@ -6,26 +6,15 @@
   "common": {
     "outputName": "web-mobile",
     "mainBundleCompressionType": "merge_dep",
-    "platform": "web-mobile",
-    "scenes": [
-      {
-        "url": "db://assets/Scene/level.scene",
-        "uuid": "72913b53-a498-4058-9e10-dd126ee297a0"
-      },
-      {
-        "url": "db://assets/Scene/Main.scene",
-        "uuid": "61c37938-7f12-4e27-a789-b918f34893f7"
-      }
-    ],
-    "startScene": "72913b53-a498-4058-9e10-dd126ee297a0"
+    "platform": "web-mobile"
   },
   "BuildTaskManager": {
     "taskMap": {
-      "1632806602060": {
-        "id": "1632806602060",
+      "1632286936288": {
+        "id": "1632286936288",
         "progress": 1,
         "state": "success",
-        "message": "30-09-2021 16:23 Build success in 6613 ms!",
+        "message": "24-09-2021 19:06 Build success in 4730 ms!",
         "options": {
           "name": "Brick_breaker",
           "platform": "web-mobile",
@@ -40,18 +29,15 @@
           "experimentalEraseModules": false,
           "compressTexture": true,
           "packAutoAtlas": true,
-          "startScene": "72913b53-a498-4058-9e10-dd126ee297a0",
+          "startScene": "61c37938-7f12-4e27-a789-b918f34893f7",
           "scenes": [
             {
-              "url": "db://assets/Scene/level.scene",
-              "uuid": "72913b53-a498-4058-9e10-dd126ee297a0"
-            },
-            {
-              "url": "db://assets/Scene/Main.scene",
-              "uuid": "61c37938-7f12-4e27-a789-b918f34893f7"
+              "url": "db://assets/Main.scene",
+              "uuid": "61c37938-7f12-4e27-a789-b918f34893f7",
+              "inBundle": false
             }
           ],
-          "outputName": "web-mobile-001",
+          "outputName": "web-mobile",
           "packages": {
             "web-mobile": {
               "orientation": "auto",
@@ -59,13 +45,10 @@
                 "asyncFunctions": true
               }
             },
-            "cocos-service": {
-              "configID": "aaff21",
-              "services": []
-            }
+            "cocos-service": {}
           }
         },
-        "time": "30-09-2021 16:23",
+        "time": "24-09-2021 19:06",
         "dirty": false
       }
     }

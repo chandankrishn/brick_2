@@ -46,19 +46,20 @@ System.register(["cc"], function (_export, _context) {
         constructor(...args) {
           super(...args);
 
-          _initializerDefineProperty(this, "damaged_bricks", _descriptor, this);
+          _initializerDefineProperty(this, "destroyed", _descriptor, this);
 
           _defineProperty(this, "bricks", []);
 
           _defineProperty(this, "bricks_destroyed", []);
 
           _defineProperty(this, "alldestroyed", false);
-
-          _defineProperty(this, "reword_instance", null);
-
-          _defineProperty(this, "bg", null);
         }
 
+        // [1]
+        // dummy = '';
+        // [2]
+        // @property
+        // serializableDummy = 0;
         start() {
           let collider = this.node.getComponent(Collider2D);
 
@@ -70,39 +71,34 @@ System.register(["cc"], function (_export, _context) {
 
         }
 
-        bg_node(background) {
-          this.bg = background;
-        }
-
         onBeginContact(selfCollider, otherCollider, contact) {
-          var name = "Normal_bricks";
-          var colider_type = "<BoxCollider2D>";
-          var par = this.node.getParent();
+          // will be called once when two colliders begin to contact
+          if (otherCollider.name == "Brick_0<BoxCollider2D>") {
+            let flag = false;
 
-          if (otherCollider.name == name + colider_type) {
-            if (otherCollider.node.colidetime < 1) {
-              if (otherCollider.node.hasrewards) {
-                this.bg.testing(otherCollider.node.position.x, otherCollider.node.position.y, otherCollider.node.position.z);
+            for (let i = 0; i < this.bricks.length; i++) {
+              if (otherCollider.uuid === this.bricks[i]) {
+                flag = true;
+                break;
               }
+            }
 
+            if (flag) {
               this.bricks_destroyed.push(otherCollider.uuid);
               otherCollider.getComponent(Sprite).destroy();
-              par.removeChild(otherCollider);
               otherCollider.destroy();
             } else {
-              otherCollider.getComponent(Sprite).spriteFrame = this.damaged_bricks[otherCollider.node.brickindex];
-              otherCollider.node.colidetime = otherCollider.node.colidetime - 1;
+              this.bricks.push(otherCollider.uuid);
+              otherCollider.getComponent(Sprite).spriteFrame = this.destroyed;
             }
           }
         }
 
-      }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "damaged_bricks", [_dec2], {
+      }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "destroyed", [_dec2], {
         configurable: true,
         enumerable: true,
         writable: true,
-        initializer: function () {
-          return [];
-        }
+        initializer: null
       })), _class2)) || _class));
       /**
        * [1] Class member could be defined like this.

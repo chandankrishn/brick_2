@@ -2,18 +2,12 @@
     1,
     [
         "19M6JnVRBC1b8vpEU9FHi/@f9941",
-        "12iGZl0mdG2peqg9wW/Bj3@f9941",
-        "52dJgulztGOawzgDdtjUtm@f9941",
-        "d0bbaJHkBFU7jTMkA/2wiN@f9941",
-        "69AcuDRqJF8q+CDxksVuab@f9941",
-        "66C7vg9q1PWah8Ik3+1LEN@f9941",
-        "67I4TYg+hAUb9U9t+3AFty@f9941",
-        "7aUzGxPWFNN40gi7magXgd@f9941",
-        "4bMTuXMEJN/p6K0iYdUocp@f9941"
+        "d0bbaJHkBFU7jTMkA/2wiN@f9941"
     ],
     [
         "node",
         "_spriteFrame",
+        "destroyed",
         "root",
         "data"
     ],
@@ -74,11 +68,10 @@
             [
                 "enabledContactListener",
                 "_gravityScale",
-                "_angularDamping",
                 "node",
                 "__prefab"
             ],
-            0,
+            1,
             1,
             4
         ],
@@ -98,12 +91,12 @@
             [
                 "node",
                 "__prefab",
-                "damaged_bricks"
+                "destroyed"
             ],
             3,
             1,
             4,
-            3
+            6
         ],
         [
             "cc.PrefabInfo",
@@ -157,8 +150,7 @@
             1,
             2,
             3,
-            4,
-            4
+            3
         ],
         [
             6,
@@ -219,7 +211,6 @@
                     5,
                     true,
                     2,
-                    2,
                     -4,
                     [
                         0,
@@ -242,16 +233,7 @@
                         0,
                         "71wlok5gFKw7fu/EpsxDfc"
                     ],
-                    [
-                        1,
-                        2,
-                        3,
-                        4,
-                        5,
-                        6,
-                        7,
-                        8
-                    ]
+                    1
                 ]
             ],
             [
@@ -265,59 +247,38 @@
     0,
     [
         0,
-        2,
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
         3,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        4,
         1,
         6
     ],
     [
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         0
     ],
     [
         1,
-        -1,
-        -2,
-        -3,
-        -4,
-        -5,
-        -6,
-        -7,
-        -8
+        2
     ],
     [
         0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
+        1
     ]
 ]

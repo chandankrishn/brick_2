@@ -27,18 +27,13 @@
             {
                 "level1": {
                     "no_of_rows": 1,
-                    "no_of_columns": 2,
-                    "Tiles": [
-                        {
-                            "index": 0,
-                            "color": 4,
-                            "type": 3
-                        },
-                        {
-                            "index": 1,
-                            "color": 4,
-                            "type": 3
-                        }
+                    "no_of_columns": 5,
+                    "stucture": [
+                        0,
+                        1,
+                        1,
+                        1,
+                        0
                     ]
                 }
             }

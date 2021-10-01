@@ -5,8 +5,8 @@
     "module": "ES2015",
     "strict": true,
     "types": [
-      "./temp/declarations/jsb",
       "./temp/declarations/cc.env",
+      "./temp/declarations/jsb",
       "./temp/declarations/cc"
     ],
     "paths": {
@@ -14,7 +14,7 @@
         "/Users/chandankrishnani/Documents/project/CocosCreator 2.app/Contents/Resources/resources/3d/engine/editor/assets/*"
       ],
       "db://assets/*": [
-        "/Users/chandankrishnani/Downloads/Brick_breaker/assets/*"
+        "/Users/chandankrishnani/CocosPractice/Brick_breaker/assets/*"
       ]
     },
     "experimentalDecorators": true,

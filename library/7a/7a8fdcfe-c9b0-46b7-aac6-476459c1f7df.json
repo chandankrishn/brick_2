@@ -156,7 +156,7 @@
     "_allowSleep": true,
     "_gravityScale": 2,
     "_linearDamping": 0,
-    "_angularDamping": 2,
+    "_angularDamping": 0,
     "_linearVelocity": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -210,40 +210,10 @@
     "__prefab": {
       "__id__": 11
     },
-    "damaged_bricks": [
-      {
-        "__uuid__": "12886665-d267-46da-97aa-83dc16fc18f7@f9941",
-        "__expectedType__": "cc.SpriteFrame"
-      },
-      {
-        "__uuid__": "5274982e-973b-4639-ac33-80376d8d4b66@f9941",
-        "__expectedType__": "cc.SpriteFrame"
-      },
-      {
-        "__uuid__": "d06db689-1e40-4553-b8d3-32403fdb088d@f9941",
-        "__expectedType__": "cc.SpriteFrame"
-      },
-      {
-        "__uuid__": "6901cb83-46a2-45f2-af82-0f192c56e69b@f9941",
-        "__expectedType__": "cc.SpriteFrame"
-      },
-      {
-        "__uuid__": "660bbbe0-f6ad-4f59-a87c-224dfed4b10d@f9941",
-        "__expectedType__": "cc.SpriteFrame"
-      },
-      {
-        "__uuid__": "672384d8-83e8-4051-bf54-f6dfb7005b72@f9941",
-        "__expectedType__": "cc.SpriteFrame"
-      },
-      {
-        "__uuid__": "7a5331b1-3d61-4d37-8d20-8bb99a81781d@f9941",
-        "__expectedType__": "cc.SpriteFrame"
-      },
-      {
-        "__uuid__": "4b313b97-3042-4dfe-9e8a-d2261d528729@f9941",
-        "__expectedType__": "cc.SpriteFrame"
-      }
-    ],
+    "destroyed": {
+      "__uuid__": "d06db689-1e40-4553-b8d3-32403fdb088d@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
     "_id": ""
   },
   {

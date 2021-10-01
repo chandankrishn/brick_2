@@ -1,5 +1,5 @@
 
-import { _decorator, Component, Node, Collider, ICollisionEvent, Contact2DType, PhysicsSystem2D, Collider2D, IPhysics2DContact, Sprite, SpriteFrame, Prefab, instantiate } from 'cc';
+import { _decorator, Component, Node, Collider, ICollisionEvent, Contact2DType, PhysicsSystem2D, Collider2D, IPhysics2DContact, Sprite, SpriteFrame } from 'cc';
 const { ccclass, property } = _decorator;
 
 /**
@@ -22,19 +22,6 @@ export class Ball extends Component {
     // [2]
     // @property
     // serializableDummy = 0;
-
-    
-    @property(SpriteFrame)
-    damaged_bricks:any=[];
-    bricks:any=[];
-    bricks_destroyed:any=[];
-    alldestroyed:boolean=false;
-    reword_instance:any=null;
-
-
-    bg:any=null;
-
-
    
 
     start () {
@@ -48,40 +35,38 @@ export class Ball extends Component {
     //     // [4]
     // }
 }
-bg_node(background:any)
-{
-    this.bg=background;
-    
-    
-}
-
+@property(SpriteFrame)
+destroyed:null;
+bricks:any=[];
+bricks_destroyed:any=[];
+alldestroyed:boolean=false;
 onBeginContact (selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
-
-    
-   var name:string="Normal_bricks";
-   var colider_type:string="<BoxCollider2D>";
-   var par: any = this.node.getParent();
+    // will be called once when two colliders begin to contact
    
-    if(otherCollider.name==name+colider_type)
+    if(otherCollider.name=="Brick_0<BoxCollider2D>")
     {
-        if(otherCollider.node.colidetime<1)
+        let flag:boolean=false;
+        for(let i=0;i<this.bricks.length;i++)
         {
             
-            if(otherCollider.node.hasrewards)
+            if(otherCollider.uuid===this.bricks[i])
             {
-                this.bg.testing(otherCollider.node.position.x,otherCollider.node.position.y,otherCollider.node.position.z)
-                
+                flag=true;
+                break;
             }
+            
+        }
+        if(flag)
+        {
             this.bricks_destroyed.push(otherCollider.uuid);
             otherCollider.getComponent(Sprite).destroy();
-            par.removeChild(otherCollider);
             otherCollider.destroy();
-           
+
         }
         else
         {
-        otherCollider.getComponent(Sprite).spriteFrame=this.damaged_bricks[otherCollider.node.brickindex];
-        otherCollider.node.colidetime=otherCollider.node.colidetime-1;
+        this.bricks.push(otherCollider.uuid);
+        otherCollider.getComponent(Sprite).spriteFrame=this.destroyed;
         }
 
 
